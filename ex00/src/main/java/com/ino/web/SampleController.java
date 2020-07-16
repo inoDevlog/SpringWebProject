@@ -19,5 +19,10 @@ public class SampleController {
 	public void doB() {
 		logger.info("doB called..........");
 	}
+	
+	@RequestMapping("doC")
+	public void doC() {
+		logger.info("doC called..........");
+	}
 
 }
