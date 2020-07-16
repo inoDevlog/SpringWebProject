@@ -20,9 +20,4 @@ public class SampleController {
 		logger.info("doB called..........");
 	}
 	
-	@RequestMapping("doC")
-	public void doC() {
-		logger.info("doC called..........");
-	}
-
 }
