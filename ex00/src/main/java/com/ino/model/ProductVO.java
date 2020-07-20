@@ -1,10 +1,10 @@
 package com.ino.model;
 
 public class ProductVO {
-	
+
 	private String name;
 	private double price;
-	
+
 	public ProductVO(String name, double price) {
 		super();
 		this.name = name;
@@ -31,5 +31,5 @@ public class ProductVO {
 	public String toString() {
 		return "ProductVO [name=" + name + ", price=" + price + "]";
 	}
-	
+
 }
