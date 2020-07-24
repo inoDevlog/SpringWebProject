@@ -19,5 +19,5 @@ public class SampleController {
 	public void doB() {
 		logger.info("doB called..........");
 	}
-	
+
 }
