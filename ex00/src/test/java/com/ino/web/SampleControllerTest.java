@@ -16,7 +16,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@WebAppConfiguration
+@WebAppConfiguration // 기존의 스프링과 스프링 MVC를 테스트하는 데 있어서의 가장 큰 차이
 @ContextConfiguration(locations = { "file:src/main/webapp/WEB-INF/spring/**/*.xml" })
 public class SampleControllerTest {
 
@@ -25,7 +25,7 @@ public class SampleControllerTest {
 	@Inject
 	private WebApplicationContext wac;
 
-	private MockMvc mockMvc;
+	private MockMvc mockMvc; // 브라우저에서 요청과 응답을 의미하는 객
 
 	@Before
 	public void setup() {
